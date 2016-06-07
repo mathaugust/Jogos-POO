@@ -1,8 +1,10 @@
+//biblioteca
 #include <iostream>
 using namespace std;
-int main(int argc, char* args[]) {
-
-	cout << " Hello World " << endl;
-
-	return 0;
+//função principal
+int main()
+{
+	//imprimi na tela "Hello World".
+  cout << "Hello World" endl;
+  return 0;
 }
