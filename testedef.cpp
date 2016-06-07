@@ -1,30 +1,34 @@
+//bibliotecas principais
 #include <iostream>
 #include <string>
+//para usar o tempo como número aleatório
+#include <ctime>
 using namespace std;
 
 int main(int argc, char* args[])
 {
+	//diz os jogadores, o valor de suas vidas, o valor dos ataques e defesas
 	string jog1, jog2;
 	int vida1 = 20, vida2 = 20;
 	int a1 = 4, a2 = 4;
 	int d1 = 1, d2 = 1;
-
+	//pede para digitar o nome do jogadores e salva nas respectivas variaveis
 	cout << "Digite o nome do jogador1:" << endl;
 	cin >> jog1;
 
 	cout << "Digite o nome do jogador2:" << endl;
 	cin >> jog2;
-
+	//imprime na tela o personagem
 	cout << " o           o" << endl;
 	cout << ".T./       \\.T." << endl;
 	cout << " ^           ^" << endl;
 	cout << jog1 << "          " << jog2 << endl;
 	cout << "vida: " << vida1 << "          " << "vida: " << vida2 << endl;
-
+	
 	int dado6;
 	int dado1
 	int dano;
-
+	//adiciona a semente gerador de números aleatorios
 	srand((int)time(0));
 	dado6 = rand() % 6 + 1;
 	dado1 = dado6; 
@@ -41,11 +45,11 @@ int main(int argc, char* args[])
 	int dado7;
 	int dado2;
 	int dano2;
-
+	//adiciona a semente gerador de números
 	srand((int)time(0));
 	dado7 = rand() 6 % + 1;
 	dado2 = dado7;
-
+	//se der menor e igual a 4
 		if (dado2 >= 4)
 		{
 			dano2 = a1 - d2;
