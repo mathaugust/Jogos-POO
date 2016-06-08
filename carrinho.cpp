@@ -1,4 +1,4 @@
-//biblioteca principaç
+//biblioteca principal
 #include <iostream>
 using namespace std;
 void imprimir_espacos(int total);
@@ -10,10 +10,17 @@ int total_espacos = 10;
 int rodada = 0;
 while (rodada < total_espacos)
 {
+cout << "Jogo de Corrida" << endl;
+imprimir_espacos(total_espacos);
+cout << " FIM(CHEGADA) " << endl;
+
 imprimir_espacos(rodada);
-cout << " s " << endl;
-//
+cout << "  _  " << endl;
+imprimir_espacos(rodada);
+cout << "-o-o>" << endl;
+//limpa a tela 
 system("cls");
+//incremento
 rodada++;
 }
 imprimir_espacos(total_espacos);
@@ -24,13 +31,10 @@ return 0;
 }
 void imprimir_espacos(int total)
 {
-// Quatidade atual de espaços.
-int qntd_atual = 0;
 //se a quantidade atual for menor que o total terá um incremento na quantidade atual
-while (qntd_atual < total)
-{
-cout << " ";
-qntd_atual++;
+for (int qntd_atual = 0; qntd_atual < total; qntd_atual++)
+	{
+		cout << " ";
 }
 
 }
