@@ -216,6 +216,7 @@ void Mostrar_Circuito(bool cod1, bool cod2, bool cod3, bool cod4)
 
 	cout << endl << endl;
 }
+// PROFESSOR! Se tem alguns erros básicos foi por conta que o compilador não compilava, dava um erro desconhecido. Já tentei de várias formas e não obtive sucesso.
 /*
 Código por https://github.com/marcelomesmo/POOAulas
 Desenhos ASCII retirados de http://ascii.co.uk/art/pokemon
