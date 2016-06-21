@@ -118,24 +118,27 @@ int main()
 	// ------ FAÇA UM LAÇO QUE COLOQUE 4 LINHAS EM TELA ------
 	
 	// Coloque o código aqui!
-	int contador;
-	for (contador=0; contador<=4; contador++;
+	int linha
+	for (linha=0; linha<=4; linha++;
 	{
-	
-		cout << "O codigo foi quebrado. Os arquivos finalmente sao seus." << endl;
-		return 0;
+		cout << "________________________________" << endl;
 	}
+		cout << "O codigo foi quebrado. Os arquivos finalmente sao seus." << endl;
+	
+	
 	
 	// ------ FAÇA UM LAÇO QUE COLOQUE 4 LINHAS EM TELA ------
 	// Coloque o código aqui!
-	for (contador=0; contador<=4; contador++;
+	for (linha=0; linha<=4; linha++;
 	{
+		cout << "_______________________________" << endl;
+	}
 	
 		cout << " -------------------- FIM DE JOGO ---------------------" << endl;
 		return 0;
-	}
-	
 
+	
+}
 	return 0;
 }
 
